@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let res;
+let a = prompt(" enter first number");
+let b = prompt(`enter an operation (sum,multi,subtract,division,moduls)`);
+let c = prompt(" enter second number");
+if(b==="sum"){
+    res = `${+a +  +c}`
+}
+else if(b==="multi"){
+    res = `${+a * +c}`
+}
+else if(b==="subtract"){
+    res = `${+a -  +c}`
+
+}
+else if(b==="division"){
+    res =  `${+a /  +c}`
+
+}
+else{
+    res =  `${+a %  +c}`
+
+}
+alert(res)
+let d = prompt("save result")
+if(d = "y" ){
+    let e = prompt(`enter an operation (sum,multi,subtract,division,moduls)`)
+    let f = prompt(" enter second number")
+    if(e==="sum"){
+    alert(`${+res +  +f}`)
+
+}
+else if(e==="multi"){
+    alert(`${+res * +f}`)
+}
+else if(e==="suetract"){
+     alert(`${+res -  +f}`)
+
+}
+else if(e==="division"){
+    alert(`${+res /  +f}`)
+
+}
+else{
+     alert(`${+res %  +f}`)
+
+}
+}
+
+
+
+    </script>
+</body>
+</html>
